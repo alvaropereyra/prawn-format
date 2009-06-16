@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.date = %q{2009-06-16}
   s.description = %q{An extension to the Prawn PDF generation library that allows you to use HTML-ish tags to do inline formatting.}
   s.email = %q{alvaro.pereyra@srdperu.com}
-  s.files = ["lib/prawn/","lib/prawn/format.rb", "lib/prawn/format/layout_builder.rb", "lib/prawn/format/lexer.rb", "lib/prawn/format/line.rb", "lib/prawn/format/parser.rb", "lib/prawn/format/state.rb", "lib/prawn/format/text_object.rb", "lib/prawn/format/version.rb", "lib/prawn/formats/effects/", "lib/prawn/formats/effects/link.rb","lib/prawn/formats/effects/underline.rb","lib/prawn/formats/instructions/","lib/prawn/formats/instructions/base.rb","lib/prawn/formats/instructions/tag_close.rb","lib/prawn/formats/instructions/tag_open.rb","lib/prawn/formats/instructions/text.rb"]
+  s.files = ["lib/prawn/","lib/prawn/format.rb", "lib/prawn/format/layout_builder.rb", "lib/prawn/format/lexer.rb", "lib/prawn/format/line.rb", "lib/prawn/format/parser.rb", "lib/prawn/format/state.rb", "lib/prawn/format/text_object.rb", "lib/prawn/format/version.rb", "lib/prawn/format/effects/", "lib/prawn/format/effects/link.rb","lib/prawn/format/effects/underline.rb","lib/prawn/format/instructions/","lib/prawn/format/instructions/base.rb","lib/prawn/format/instructions/tag_close.rb","lib/prawn/format/instructions/tag_open.rb","lib/prawn/format/instructions/text.rb"]
   s.has_rdoc = false
   s.homepage = %q{http://github.com/srdperu/prawn-format}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]

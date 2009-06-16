@@ -142,7 +142,7 @@ module Prawn
             { :type => :text, :text => pieces }
           end
         end
-
+                  
         ENTITY_MAP = {
           "lt"    => "<",
           "gt"    => ">",
@@ -151,7 +151,25 @@ module Prawn
           "ndash" => "\xE2\x80\x93",
           "nbsp"  => "\xC2\xA0",
           "bull"  => "\342\200\242",
-          "quot"  => '"',
+          "quot"  => '"',       
+          "trade"  => '™',     
+          "iexcl"  => '¡',                         
+          "cent"  => '¢',       
+          "pound"  => '£',     
+          "curren"  => '¤',   
+          "copy"  => '©',   
+          "aacute"  => 'á', 
+          "eacute"  => 'é', 
+          "iacute"  => 'í', 
+          "oacute"  => 'ó', 
+          "uacute"  => 'ú',
+          "Aacute"  => 'Á', 
+          "Eacute"  => 'É', 
+          "Iacute"  => 'Í', 
+          "Oacute"  => 'Ó', 
+          "Uacute"  => 'Ú',           
+          "ntilde"  => 'ñ',
+          "Ntilde"  => 'Ñ',                                                                       
         }
 
         def scan_entity

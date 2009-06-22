@@ -169,7 +169,11 @@ module Prawn
           "Oacute"  => 'Ó', 
           "Uacute"  => 'Ú',           
           "ntilde"  => 'ñ',
-          "Ntilde"  => 'Ñ',                                                                       
+          "Ntilde"  => 'Ñ',
+          "Uuml" => 'Ü',    
+          "uuml" => 'ü',
+          "iquest" => '¿',
+          "iexcl" => '¡'
         }
 
         def scan_entity
